@@ -1,0 +1,20 @@
+.single-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  main {
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    > * {
+        background-color: rgba(192, 10, 10, 0.886);
+        padding: 10px;
+        border-radius: 5px;
+    }
+  }
+}

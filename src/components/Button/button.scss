@@ -1,0 +1,21 @@
+button {
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.card button {
+    width: 100%;
+    background-color: #51bc00;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.pagination button {
+    min-width: 27px;
+    padding: 5px;
+    margin: 3px;
+    background-color: white;
+    color: rgb(169, 0, 0);
+}

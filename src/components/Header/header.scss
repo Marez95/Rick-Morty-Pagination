@@ -1,0 +1,13 @@
+.header{
+    background-color: #9fe868;
+    padding: 20px 50px;
+    h1{
+        color: rgb(47, 47, 47);
+        letter-spacing: 2px;
+
+        &:hover{
+            color: rgb(157, 0, 0);
+            cursor: pointer;
+        }
+    }
+}
