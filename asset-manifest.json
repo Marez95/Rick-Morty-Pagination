@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rick-Morty-Pagination/static/css/main.e1e89b8a.css",
+    "main.js": "/Rick-Morty-Pagination/static/js/main.d7b699c6.js",
+    "index.html": "/Rick-Morty-Pagination/index.html",
+    "main.e1e89b8a.css.map": "/Rick-Morty-Pagination/static/css/main.e1e89b8a.css.map",
+    "main.d7b699c6.js.map": "/Rick-Morty-Pagination/static/js/main.d7b699c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1e89b8a.css",
+    "static/js/main.d7b699c6.js"
+  ]
+}
