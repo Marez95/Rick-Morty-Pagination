@@ -19,43 +19,28 @@ function App(props) {
       });
   }
 
-  // component did mount
   useEffect(() => {
     fetchData();
   }, [page]);
 
   function setClickedChar(data) {
     setSelectedChar(data);
-    // this.setState({
-    //   selectedChar: data,
-    // });
   }
 
   function nextPage() {
     if (page < 42) {
       setPage(page + 1);
     }
-    // if (this.state.page < 42) {
-    //   this.setState({
-    //     page: this.state.page + 1,
-    //   });
   }
 
   function prevPage() {
     if (page > 1) {
       setPage(page - 1);
     }
-    // if (this.state.page > 1) {
-    //   this.setState({
-    //     page: this.state.page - 1,
-    //   });
   }
 
   function setClickedPage(num) {
     setPage(num);
-    // this.setState({
-    //   page: num
-    // })
   }
 
   return (

@@ -4,7 +4,7 @@ import "./footer.scss"
 export default class Footer extends Component {
   render() {
     return (
-      <div className='footer'>Designed by Bit Student gen16</div>
+      <div className='footer'>Designed by Marko Vladisavljevic</div>
     )
   }
 }
